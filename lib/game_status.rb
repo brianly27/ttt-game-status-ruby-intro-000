@@ -57,3 +57,13 @@ def over?(board)
     return false
   end
 end
+
+
+def winner(board)
+  if !won?(board) == false
+    win = won(board)
+    puts "#{win[0]}"
+  end
+end
+    
+  
