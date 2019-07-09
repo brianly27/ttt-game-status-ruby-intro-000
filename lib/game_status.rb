@@ -65,5 +65,5 @@ def winner(board)
     puts "#{win[0]}"
   end
 end
-    
+
   
